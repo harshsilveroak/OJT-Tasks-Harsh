@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+        div {
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .crispy-kitchen {
+            border: 1px solid black;
+            width: 20%;
+            height: 50px;
+            color: red;
+            font-size: 25px;
+        }
+
+        .navbar {
+            display: flex;
+            border: 1px solid black;
+            padding: 0%;
+            width: 70%;
+            height: 50px;
+            font-style: italic;
+            justify-content: space-between;
+
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+            gap: 50%;
+        }
+
+        .Reservation {
+            border: 1px solid black;
+            width: 10%;
+            height: 50px;
+            background: red;
+        }
+
+        .pic {
+            border: 2px solid black;
+            height: 600px;
+            width: 100%;
+
+        }
+
+        .pic img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .pic h1 {
+            display: flex;
+            position: absolute;
+            font-size: 60px;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+
+        }
+
+        .pic h5 {
+            position: absolute;
+            bottom: 200px;
+            font-size: larger;
+            background-color: red;
+        }
+
+        .form {
+            height: 500px;
+            width: 100%;
+            font-size: 30px;
+            display: flex;
+            justify-content: left;
+            align-items: initial;
+            padding-top: 100px;
+        }
+        .info{
+            height: 500px;
+            width: 100%;
+            display: flex   ;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="crispy-kitchen">
+            Crispy Kitchen
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="css3.html">Home</a></li>
+                <li><a href="stay.html">stay</a></li>
+                <li><a href="menu1.html">Menu</a></li>
+                <li><a href="ourproduct.html">Our Products</a></li>
+                <li><a href="contactus">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="Reservation">
+            <button>Reservation</button>
+        </div>
+    </div>
+
+    <div class="pic">
+        <img src="restaurant.jpg" alt="">
+        <h1>Say Hi</h1>
+        <h5>We Are Happy To Get in Touch With You</h5>
+    </div>
+
+    <div>
+        <h2>Leave a message</h2>
+    </div>
+    <div class="form">
+
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" placeholder="enter full name" required>
+
+            <label for="phn">Phone Number</label>
+            <input type="tel" name="phn" id="phn" placeholder="enter phone number" required>
+
+            <label for="email">Email:</label>
+            <input type="email" placeholder="enter email " required>
+
+            <label for="msg">Messege:</label>
+            <input type="text" placeholder="enter Messege" required>
+
+            <button>Send</button>
+        </form>
+    </div>
+
+    <div class="info">
+        <h1>WeekDays</h1>
+        <h2>Monday To Friday</h2>
+    </div>
+</body>
+
+</html>

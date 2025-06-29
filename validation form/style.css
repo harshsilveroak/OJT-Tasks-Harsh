@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat ;
+    /* background-position: 100%; */
+    background-image: url("https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg");
+    background-position: center;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    background-size: cover;
+}
+h1{
+    padding: 40px;
+    color: rgb(162, 162, 241);
+    background-color: red;
+    border-radius: 50px ;
+    /* border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border-top-left-radius: 170px;
+    border-top-right-radius: 170px; */
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    color: black; 
+}
+
+#first{
+    box-shadow: 3px 3px 5px rgb(145, 28, 28);
+    color: darkred;
+    border-color: darkgreen;
+    border: 3px solid green;
+    border-radius: 20px;
+    padding: 10px;
+}
+#first:hover{
+    color: red;
+    text-shadow: 1px 1px 1px darkblue;
+}
+
+#last{
+    box-shadow: 3px 3px 5px rgb(145, 28, 28);
+    color: darkred;
+    border-color: darkgreen;
+    border: 3px solid green;
+    border-radius: 20px;
+    padding: 10px;
+}
+#last:hover{
+    color: red;
+    text-shadow: 1px 1px 1px darkblue;
+}
+#email{
+    box-shadow: 3px 3px 5px rgb(145, 28, 28);
+    color: darkred;
+    border-color: darkgreen;
+    border: 3px solid green;
+    border-radius: 20px;
+    padding: 10px;
+}
+#email:hover{
+    color: red;
+    text-shadow: 1px 1px 1px darkblue;
+}
+#phn_no{
+    box-shadow: 3px 3px 5px rgb(145, 28, 28);
+    color: darkred;
+    border-color: darkgreen;
+    border: 3px solid green;
+    border-radius: 20px;
+    padding: 10px;
+}
+#phn_no:hover{
+    color: red;
+    text-shadow: 1px 1px 1px darkblue;
+}
+#pass{
+    box-shadow: 3px 3px 5px rgb(145, 28, 28);
+    color: darkred;
+    border-color: darkgreen;
+    border: 3px solid green;
+    border-radius: 20px;
+    padding: 10px;
+}
+#pass:hover{
+    color: red;
+    text-shadow: 1px 1px 1px darkblue;
+}
+#conf_pass{
+    box-shadow: 3px 3px 5px rgb(145, 28, 28);
+    color: darkred;
+    border-color: darkgreen;
+    border: 3px solid green;
+    border-radius: 20px;
+    padding: 10px;
+}
+#conf_pass:hover{
+    color: red;
+    text-shadow: 1px 1px 1px darkblue;
+}
+
+#sub{
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+label{
+    color:red;
+    font-size: 20px ;
+    font-size: xx-large;
+    /* border: 2px solid black; */
+    /* background-color: whitesmoke; */
+    border-radius: 10px;
+    padding: 5px;
+}
